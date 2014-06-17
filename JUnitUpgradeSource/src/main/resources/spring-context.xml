@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+    <context:annotation-config />
+
+	<bean id="mathUtility" class="com.techinars.junitUpgrade.utility.MathUtility">
+		<property name="classDescription" value="This is a Math Uitlity Class" />
+	</bean>
+	
+	<bean id="staffDao" class="com.techinars.junitUpgrade.dao.StaffDao" />
+	
+	<bean id="staffController" class="com.techinars.junitUpgrade.controller.StaffController" />
+
+	<util:map id="employeeDB">
+		<entry key="1" value-ref="employeeA" />
+	</util:map>
+	
+	<bean id="employeeA" class="com.techinars.junitUpgrade.dto.EmployeeDto">
+        <property name="firstName" value="Employee First Name" />
+        <property name="lastName" value="Employee Last Name" />
+    </bean>   
+
+</beans>
