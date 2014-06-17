@@ -26,7 +26,7 @@ class StaffControllerTestWithSpock extends Specification{
 		def EmployeeDto testEmployeeDto = new EmployeeDto();
 		
 		// prepare expectation
-		testEmployeeDto.setFirstName("Employee First Namefdg");
+		testEmployeeDto.setFirstName("Employee First Name");
 		testEmployeeDto.setLastName("Employee Last Name");
 		
 		expect: "Retrieve Employee detail"
