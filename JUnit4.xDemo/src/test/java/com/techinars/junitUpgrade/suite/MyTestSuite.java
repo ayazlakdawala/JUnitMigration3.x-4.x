@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
-import com.techinars.junitUpgrade.controller.StaffControllerTest;
+import com.techinars.junitUpgrade.controller.StaffControllerTestWithPowerMockito;
 import com.techinars.junitUpgrade.utility.MathUtilityJUnitParamsTest;
 import com.techinars.junitUpgrade.utility.MathUtilityParameterisedTest;
 import com.techinars.junitUpgrade.utility.MathUtilitySpringJUnitRunnerTest;
@@ -19,6 +19,6 @@ import com.techinars.junitUpgrade.utility.StringUtilityTest;
 @SuiteClasses({ MathUtilityTest.class, MathUtilityJUnitParamsTest.class,
 		MathUtilityParameterisedTest.class,
 		MathUtilitySpringJUnitRunnerTest.class, StringUtilityTest.class,
-		StaffControllerTest.class })
+		StaffControllerTestWithPowerMockito.class})
 public class MyTestSuite {
 }
