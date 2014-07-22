@@ -1,0 +1,18 @@
+# ignore .metadata folder
+.metadata/
+#
+# ignore RemoteSystemsTempFiles folder
+RemoteSystemsTempFiles/
+#
+# ignore Servers folder
+Servers/
+#
+# ignore .settings folder
+**/.settings/
+#
+# ignore target folder
+**/target/
+
+# ignore bin folder
+**/bin/
+
