@@ -30,6 +30,20 @@ public class StaffDao {
 		
 	}
 	
+	public String getEmployeeFirstName(String employeeId) {
+		return this.getFirstName(employeeId);
+	}
+
+	/**
+	 * This method 
+	 *
+	 * @param employeeId
+	 */
+	private String getFirstName(String employeeId) {		
+		
+		return "Test First Name";
+		
+	}
 	
 
 }

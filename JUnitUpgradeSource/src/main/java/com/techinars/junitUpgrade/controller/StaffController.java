@@ -34,5 +34,11 @@ public class StaffController {
 		return staffDao.getEmployeeDetails(employeeId);
 		
 	}
+	
+	public String retrieveEmployeeFirstName(String employeeId) {
+		
+		return staffDao.getEmployeeFirstName(employeeId);
+		
+	}	
 
 }
