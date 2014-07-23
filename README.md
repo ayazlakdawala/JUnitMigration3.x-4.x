@@ -18,7 +18,7 @@ Steps to follow:
 Unit Testing functionalities covered in the demo projects:
 -----------------------------------------------------------------------------
 
-1. ### JUnit3.xDemo
+1.JUnit3.xDemo
 -----------------------------
     1.  Test suite creation
     2.  Testing exceptions
@@ -26,7 +26,7 @@ Unit Testing functionalities covered in the demo projects:
     4.  One time setup and tear down
     5.  Setup and tear down per test
 
-2.###JUnit4.xDemo
+2.JUnit4.xDemo
 ---------------------------
     1.  Test suite creation
     2.  Testing exceptions
@@ -40,7 +40,7 @@ Unit Testing functionalities covered in the demo projects:
     8.  Parameterized testing with 3rd party JUnitParamsRunner
     9. Parameterized testing with in built *Parameterized* runner class
 
-3.###SpockDemo
+3.SpockDemo
 -------------------------
      1.  One time setup
      2.  Integration with *Powermockito*
