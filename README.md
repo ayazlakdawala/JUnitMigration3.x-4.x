@@ -7,6 +7,7 @@ Prerequisites:
 -------------------
 
 * Download and install **_Maven_** from [http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html]
+* Install Groovy plugin in your preferred IDE.
 
 Steps to follow:
 ---------------------
@@ -14,6 +15,11 @@ Steps to follow:
 2. Maven build **_JUnitUpgradeSource_** project so that it is available in maven's local repository.
 3. **_JUnitUpgradeSource_** jar is referred as one of the dependency in all the 3 demo projects. It provides the source code which will be tested by 3 Unit testing frameworks.
 4. Run the unit tests for each demo project.
+
+Presentation:
+-----------------------
+
+Kindly refer to the **_TechiNar Series-Migrating from JUnit 3.x to JUnit 4.x.pptx_** which covers in-depth information for all the aspects covered in these projects.
 
 Unit Testing functionalities covered in the demo projects:
 -----------------------------------------------------------------------------
