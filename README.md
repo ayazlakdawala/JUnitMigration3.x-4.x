@@ -19,7 +19,7 @@ Steps to follow:
 Presentation:
 -----------------------
 
-Kindly refer to the **_TechiNar Series-Migrating from JUnit 3.x to JUnit 4.x.pptx_** which covers in-depth information for all the aspects covered in these projects.
+Kindly refer to the **_TechiNar Series-Unit Testing Frameworks Demo.pptx_** which covers in-depth information for all the aspects covered in these projects.
 
 Unit Testing functionalities covered in the demo projects:
 -----------------------------------------------------------------------------
