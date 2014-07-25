@@ -41,15 +41,23 @@ Unit Testing functionalities covered in the demo projects:
 5.  Setup and tear down per test
 6.  Integration with **_Spring_**
 7.  Integration with **_Powermockito_**
-  * Mocking DAOs
-  * Mocking private method calls
+    * Mocking DAOs
+    * Mocking private method calls
 8.  Parameterized testing with 3rd party **_JUnitParamsRunner_**
-9. Parameterized testing with in built **_Parameterized_** runner class
+9.  Parameterized testing with in built **_Parameterized_** runner class
+10. Ignoring Tests
 
 3.SpockDemo
 -------------------------
-1.  One time setup
-2.  Integration with **_Powermockito_**
-  * Mocking private methods
-3.  Mocking using Spock's in built mocking api 
+1.  Test suite creation
+2.  Testing exceptions
+3.  Testing exception with exception messages
+4.  One time setup and tear down
+5.  Setup and tear down per test
+6.  Integration with **_Spring_**
+7.  Integration with **_Powermockito_**
+    * Mocking private methods
+8.  Mocking using Spock's in built mocking api
+9.  Parameterized Testing
+10. Ignoring tests
 
