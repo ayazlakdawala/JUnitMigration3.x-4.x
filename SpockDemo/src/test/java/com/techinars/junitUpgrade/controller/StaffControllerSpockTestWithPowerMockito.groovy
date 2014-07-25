@@ -1,6 +1,5 @@
 package com.techinars.junitUpgrade.controller
 
-import org.junit.Test;
 import org.mockito.Mockito;
 import org.powermock.api.mockito.PowerMockito;
 import org.springframework.beans.factory.annotation.Autowired;
