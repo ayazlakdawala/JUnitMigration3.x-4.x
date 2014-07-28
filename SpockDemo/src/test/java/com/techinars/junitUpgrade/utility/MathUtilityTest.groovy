@@ -1,9 +1,5 @@
 package com.techinars.junitUpgrade.utility
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 import com.techinars.junitUpgrade.utility.MathUtility;
 
 import spock.lang.Specification

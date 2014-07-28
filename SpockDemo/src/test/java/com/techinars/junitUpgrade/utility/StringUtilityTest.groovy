@@ -1,6 +1,10 @@
 package com.techinars.junitUpgrade.utility
 
 import spock.lang.Ignore
+import groovy.transform.CompileStatic
+import groovy.transform.TypeChecked;
+
+import com.techinars.junitUpgrade.dao.StaffDao
 
 import spock.lang.Specification
 
@@ -8,6 +12,7 @@ import spock.lang.Specification
  * @author ayazlakdawala
  * 
  */
+@TypeChecked
 class StringUtilityTest extends Specification {
 	
 	/**
@@ -62,7 +67,7 @@ class StringUtilityTest extends Specification {
 	 */
 	def "is UnTrimmed String Empty With Blank Space Input"() {
 		expect:
-		StringUtility.isUnTrimmedStringEmpty(" ") == false
+		StringUtility.isUnTrimmedStringEmpty(" ") == false		
 	}
 	
 	/**
