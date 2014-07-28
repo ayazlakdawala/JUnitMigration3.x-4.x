@@ -60,13 +60,10 @@ class StaffControllerSpockTestWithSpring extends Specification{
 		when:
 		def resultEmployee = staffController.retrieveEmployeeDetails("1")
 				
-		/*then:
-		1 * mockedStaffDao.getEmployeeDetails("1") >> testEmployeeDto
-		resultEmployee.getFirstName() == testEmployeeDto.getFirstName()*/	
-		
 		then:
-		mockedStaffDao.getEmployeeDetails("1") >> testEmployeeDto	
-		
+		1 * mockedStaffDao.getEmployeeDetails(_ as String) >> testEmployeeDto
+		resultEmployee.getFirstName() == testEmployeeDto.getFirstName()	
+				
 		
 	}		
 
